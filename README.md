@@ -53,6 +53,7 @@ python main.py my_font.ttf
 python main.py /path/to/fonts_folder
 python main.py /path/to/fonts_folder -o report.txt
 ```
+![Example](test.png)
 
 ## Contributing
 
