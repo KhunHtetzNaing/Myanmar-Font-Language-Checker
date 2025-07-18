@@ -9,12 +9,12 @@ This tool aims to provide a way to check font support for these diverse language
 
 ## Contribute Your Language Data
 
-As I do not possess comprehensive knowledge of all Myanmar languages, your contributions are highly encouraged! You can add definitions for additional languages within the `lang` directory.
+Since I don't have comprehensive knowledge of all Myanmar languages, **your contributions are highly welcome!** You can add definitions for additional languages by contributing to the `lang` directory.
 
-Currently, the tool includes support for:
-
- - [x] [Burmese](https://en.wikipedia.org/wiki/Burmese_language)
- - [x] [Pa'O](https://en.wikipedia.org/wiki/Pa%27O_language) (Black Karen)
+Currently, this tool supports:
+-   [Burmese](https://en.wikipedia.org/wiki/Burmese_language)
+-   [Pa'O](https://en.wikipedia.org/wiki/Pa%27O_language)
+-   [Shan](https://en.wikipedia.org/wiki/Shan_language) (contributed by [@SaingHmineTun](https://github.com/SaingHmineTun))
 
 ## Setup
 

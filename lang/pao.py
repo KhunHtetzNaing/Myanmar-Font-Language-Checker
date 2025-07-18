@@ -1,6 +1,27 @@
+# Pa'O Language Unicode Character Map
+#
+# Alternative names:
+# - Black Karen
+# - Taungthu
+#
+# Alternative spellings:
+# - PaO
+# - Pa-O
+# - Pa-Oh
+# - PaOh
+#
+# References:
+# - https://en.wikipedia.org/wiki/Pa%27O_language
+# - https://www.unicode.org/notes/tn11/UTN11_4.pdf
+#
+# Unicode blocks used:
+# - Myanmar (U+1000–U+109F): Core Myanmar script characters
+# - Myanmar Extended-A (U+AA60–U+AA7F): Additional Myanmar characters
+
 LANGUAGE_DATA = {
     "name": "Pa'O",
     "characters": [
+        # Consonants
         0x1000,  # က
         0x1001,  # ခ
         0x1002,  # ဂ
@@ -10,7 +31,6 @@ LANGUAGE_DATA = {
         0x1006,  # ဆ
         0x1007,  # ဇ
         0x1008,  # ဈ
-        0x1009,  # ဉ
         0x100a,  # ည
         0x100b,  # ဋ
         0x100c,  # ဌ
@@ -35,6 +55,9 @@ LANGUAGE_DATA = {
         0x101f,  # ဟ
         0x1020,  # ဠ
         0x1021,  # အ
+
+        # Additional (primarily used for Pali/Sanskrit loanwords)
+        0x1009,  # ဉ
         0x1023,  # ဣ
         0x1024,  # ဤ
         0x1025,  # ဥ
@@ -42,26 +65,35 @@ LANGUAGE_DATA = {
         0x1027,  # ဧ
         0x1029,  # ဩ
         0x103f,  # ဿ
-        0x1036,  # ံ
 
-        0x102b,  # ါ
+        # Medials
+        0x103b,  # ျ
+        0x103c,  # ြ
+        0x103d,  # ွ
+
+        # Vowels
         0x102c,  # ာ
+        0x102b,  # ါ
         0x102d,  # ိ
         0x102e,  # ီ
         0x102f,  # ု
         0x1030,  # ူ
         0x1031,  # ေ
-        0x1032,  # ဲ
         0x1037,  # ့
+        0x1032,  # ဲ
+        0x1036,  # ံ
+
+        # Virama and asat
+        0x1039,  # ္
+        0x103a,  # ်
+
+        # Tones
         0x1038,  # း
         0x108F,  # ႏ
         0xAA7B,  # ꩻ
-        0x103b,  # ျ
-        0x103c,  # ြ
-        0x103d,  #  ွ
+
+        # Punctuation
         0x104a,  # ၊
         0x104b,  # ။
-        0x1039,  # ္
-        0x103a,  #  ်
     ]
 }
